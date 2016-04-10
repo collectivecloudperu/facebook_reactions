@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Implementando Facebook Reactions con CSS 3</title>
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/bootstrap.min.js"></script>    
+    
+    <link rel="stylesheet" href="css/estilos.css">    
+    
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1 align="center">Implementando "Facebook Reactions" con CSS 3</h1>
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <h4 align="center">Coloca el mouse sobre el texto "Me Gusta":</h4>
+
+          <div class="box">
+            <input type="checkbox" id="like" class="field-reactions">    
+
+            <!-- Texto de ayuda -->        
+            <h3 class="text-desc">Presiona TAB para navegar por las reacciones y luego ENTER para elegir.</h3>
+
+            <!-- Mostramos el texto Me Gusta -->
+            <label for="like" class="label-reactions">Me Gusta</label>
+
+            <!-- Creamos el contenedor para mostrar los iconos -->
+            <div class="toolbox"></div>
+
+            <!-- <label class="overlay" for="like"></label> -->
+
+            <!-- Creamos los iconos para cada reacción -->
+            <button class="reaction-like"><span class="legend-reaction">Me gusta</span></button>
+            <button class="reaction-love"><span class="legend-reaction">Me encanta</span></button>
+            <button class="reaction-haha"><span class="legend-reaction">Me divierte</span></button>
+            <button class="reaction-wow"><span class="legend-reaction">Me asombra</span></button>
+            <button class="reaction-sad"><span class="legend-reaction">Me entristece</span></button>
+            <button class="reaction-angry"><span class="legend-reaction">Me enoja</span></button>
+
+            <div class="footer" align="center">              
+              Desarrollado por <a href="http://www.collectivecloudperu.com" target="_blank">Collective Cloud Perú</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>    
+    
+  </body>
+</html>
